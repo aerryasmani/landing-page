@@ -177,11 +177,11 @@ button.ghost {
 
 .overlay-right {
     right: 0;
-    transform: translatex(0);
+    transform: translateX(0);
 }
 
 .overlay-left {
-    transform: translatex(-20%);
+    transform: translateX(-20%);
 }
 
 
@@ -190,21 +190,21 @@ button.ghost {
 
 /* Move Sign In to the right side*/
 
-.container.right-panel-active.sign-in-container {
+.container.right-panel-active .sign-in-container {
     transform: translateX(100%);
 }
 
 
 /* Move overlay to the left side*/
 
-.container.right-panel-active.overlay-container {
+.container.right-panel-active .overlay-container {
     transform: translateX(-100%);
 }
 
 
 /*Overlap Sign Up Over Sign In*/
 
-.container.right-panel-active.overlay-container .sign-up-container {
+.container.right-panel-active .sign-up-container {
     transform: translateX(100%);
     opacity: 1;
     Z-index: 5;
@@ -213,14 +213,14 @@ button.ghost {
 
 /*Move Overlap to back*/
 
-.container.right-panel-active.overlay {
+.container.right-panel-active .overlay {
     transform: translateX(50%);
 }
 
-.container.right-panel-active.overlay-left {
+.container.right-panel-active .overlay-left {
     transform: translateX(0);
 }
 
-.container.right-panel-active.overlay-right {
+.container.right-panel-active .overlay-right {
     transform: translateX(20%);
 }
